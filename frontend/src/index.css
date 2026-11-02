@@ -1,0 +1,32 @@
+
+/* Professional Font - Manrope */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap");
+
+/* Tailwind CSS */
+@import "tailwindcss";
+
+/* Font Theme */
+@theme {
+  --font-sans: "Manrope", sans-serif;
+}
+
+/* Global Font */
+:root {
+  font-family: "Manrope", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+}
